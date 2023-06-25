@@ -1,0 +1,20 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-app",
+      "appliesTo": "bindings/app.js",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-app",
+      "appliesTo": "bindings/app.js",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-app",
+      "appliesTo": "bindings/app.js",
+      "type": "launch"
+    }
+  ]
+}

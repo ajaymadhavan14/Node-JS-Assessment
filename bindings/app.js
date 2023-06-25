@@ -1,6 +1,6 @@
 const addon = require('./addon.cpp');
 
-const input = 'Hello World';
+const input = 'x';
 const hash = addon.simpleHash(input);
 
 console.log(`Input: ${input}`);

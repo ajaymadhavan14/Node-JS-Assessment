@@ -16,7 +16,7 @@ $ npm install -g node-gyp
 
 2. Clone the repository and navigate to the addon directory:
 
-$ git clone https://github.com/ajaymadhavan14/Node-JS-Assessment.git
+$ git clone https://github.com/ajaymadhavan14/Node-JS-Assessment.git :
 $ cd addon
 
 

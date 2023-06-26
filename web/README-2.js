@@ -2,8 +2,8 @@ import http from "http"
 
 const server = http.createServer((req, res) => {
   if (req.url === '/') {
-    const epochTime = Math.floor(Date.now() / 1000); // Server's epoch time
-    const localTime = new Date().toLocaleString(); // Client's local time
+    const epochTime = Math.floor(Date.now() / 1000); 
+    const localTime = new Date().toLocaleString(); 
 
     const html = `
       <html>

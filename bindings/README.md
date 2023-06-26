@@ -10,20 +10,24 @@ This Node.js addon provides a simple hash function implemented in C++.
 ## Build Instructions
 
 1. Install the required dependencies:
+
 $ npm install -g node-gyp
 
 
 2. Clone the repository and navigate to the addon directory:
+
 $ git clone https://github.com/your/repo.git
 $ cd addon
 
 
 3. Build the addon using node-gyp:
+
 $ node-gyp configure
 $ node-gyp build
 
 
-4. Use the Addon in JavaScript
+4. Use the Addon in JavaScript:
+
 const addon = require('./build/Release/addon');
 
 const input = 'Hello, world!';
